@@ -7,8 +7,8 @@ const HF = "https://d8j0ntlcm91z4.cloudfront.net/user_3E7JAVPwA7DZLNJSwAYUmbE0qf
 const UNS = "https://images.unsplash.com";
 
 export const IMAGES = {
-  /** Hero: African savanna at golden hour */
-  hero: `${UNS}/photo-1547471080-7cc2caa01a7e?auto=format&fit=crop&w=2400&q=85`,
+  /** Hero: African savanna at golden hour — Higgsfield soul_location */
+  hero: `${HF}/hf_20260528_230927_a0056119-1b18-4aa8-89e9-aa6469a77a7e.png`,
 
   /** Congo Basin rainforest aerial */
   congoForest: `${UNS}/photo-1448375240586-882707db888b?auto=format&fit=crop&w=2400&q=85`,

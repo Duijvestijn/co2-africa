@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@theme inline {
+  /* African Earth palette */
+  --color-af-dark:          #06090A;
+  --color-af-night:         #0A1008;
+  --color-af-forest:        #101A0D;
+  --color-af-sienna:        #B8621A;
+  --color-af-sienna-light:  #D4803A;
+  --color-af-sienna-muted:  #8B4A14;
+  --color-af-green:         #2A5C1A;
+  --color-af-green-light:   #3D7A28;
+  --color-af-sand:          #E8D5B0;
+  --color-af-cream:         #F5EDDC;
+  --color-af-sky:           #5A7A9A;
+  --color-af-mist:          #8AA0B5;
+  --color-af-ochre:         #C49B35;
+  --color-af-ochre-light:   #D4B555;
+  --font-serif: var(--font-playfair);
+  --font-sans:  var(--font-inter);
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  background-color: #06090A;
+  color: #E8D5B0;
+  font-family: var(--font-inter), system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+::selection {
+  background: rgba(184, 98, 26, 0.35);
+  color: #F5EDDC;
+}
+
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-track { background: #06090A; }
+::-webkit-scrollbar-thumb { background: #B8621A; border-radius: 3px; }

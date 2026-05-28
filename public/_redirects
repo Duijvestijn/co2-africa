@@ -1,0 +1,4 @@
+# Cloudflare Pages redirects
+# Language detection: French browsers → /fr, everyone else → /en
+/  /fr  302  Language=fr
+/  /en  302

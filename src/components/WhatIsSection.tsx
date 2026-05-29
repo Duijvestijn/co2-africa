@@ -1,13 +1,12 @@
 "use client";
-
 import { useRef } from "react";
 import { motion, useInView } from "framer-motion";
 import { useLang } from "@/lib/LangContext";
 import { translations } from "@/lib/translations";
 
 const FU = (d = 0) => ({
-  hidden: { opacity: 0, y: 22 },
-  visible: { opacity: 1, y: 0, transition: { delay: d, duration: 0.65, ease: [0.22, 1, 0.36, 1] as [number,number,number,number] } },
+  hidden: { opacity: 0, y: 24 },
+  visible: { opacity: 1, y: 0, transition: { delay: d, duration: 0.65, ease: [0.22, 1, 0.36, 1] as [number, number, number, number] } },
 });
 
 export default function WhatIsSection() {
@@ -24,49 +23,47 @@ export default function WhatIsSection() {
   ];
 
   return (
-    <section id="what-is" className="bg-af-night py-24 md:py-32 relative overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-to-br from-af-sienna/[0.03] to-transparent pointer-events-none" />
-      <div ref={ref} className="relative z-10 max-w-6xl mx-auto px-6">
-        {/* Header */}
-        <div className="max-w-3xl mb-16">
-          <motion.div variants={FU(0)} initial="hidden" animate={inView ? "visible" : "hidden"}>
-            <div className="inline-flex items-center gap-2 mb-4">
-              <span className="w-6 h-px bg-af-sienna/50" />
-              <span className="text-xs tracking-[0.25em] uppercase text-af-sienna/80 font-medium">{t.label}</span>
-            </div>
-          </motion.div>
-          <motion.h2 variants={FU(0.08)} initial="hidden" animate={inView ? "visible" : "hidden"}
-            className="font-serif text-4xl md:text-5xl font-bold text-white leading-tight mb-4">
-            {t.title}
-          </motion.h2>
-          <motion.p variants={FU(0.14)} initial="hidden" animate={inView ? "visible" : "hidden"}
-            className="text-af-sienna font-serif text-lg italic mb-6">
-            {t.subtitle}
-          </motion.p>
-          <motion.p variants={FU(0.2)} initial="hidden" animate={inView ? "visible" : "hidden"}
-            className="text-af-sand/60 text-lg leading-relaxed">
-            {t.intro}
-          </motion.p>
-        </div>
-
-        {/* Steps */}
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-14">
-          {steps.map((s, i) => (
-            <motion.div key={i} variants={FU(i * 0.1)} initial="hidden" animate={inView ? "visible" : "hidden"}
-              className="p-6 rounded-2xl bg-af-dark/60 border border-white/[0.05] hover:border-af-sienna/25 transition-all group">
-              <div className="font-serif text-4xl font-bold text-af-sienna/15 mb-4 leading-none">{s.n}</div>
-              <h3 className="font-serif text-base font-bold text-white mb-2 group-hover:text-af-sienna transition-colors">{s.title}</h3>
-              <p className="text-af-sand/45 text-xs leading-relaxed">{s.desc}</p>
+    <section id="what-is" className="bg-af-page py-24 md:py-32">
+      <div ref={ref} className="max-w-6xl mx-auto px-6">
+        <div className="grid lg:grid-cols-2 gap-16 items-start">
+          {/* Left: header + intro */}
+          <div>
+            <motion.div variants={FU(0)} initial="hidden" animate={inView ? "visible" : "hidden"}>
+              <span className="text-xs tracking-[0.3em] uppercase text-af-green font-bold mb-4 block">{t.label}</span>
             </motion.div>
-          ))}
-        </div>
+            <motion.h2 variants={FU(0.08)} initial="hidden" animate={inView ? "visible" : "hidden"}
+              className="font-serif text-5xl md:text-6xl font-bold text-af-ink leading-tight mb-6">
+              {t.title}
+            </motion.h2>
+            <motion.p variants={FU(0.14)} initial="hidden" animate={inView ? "visible" : "hidden"}
+              className="text-af-green font-serif text-xl italic mb-6 leading-relaxed">
+              {t.subtitle}
+            </motion.p>
+            <motion.p variants={FU(0.2)} initial="hidden" animate={inView ? "visible" : "hidden"}
+              className="text-af-muted text-lg leading-relaxed mb-8">
+              {t.intro}
+            </motion.p>
+            <motion.div variants={FU(0.26)} initial="hidden" animate={inView ? "visible" : "hidden"}
+              className="p-6 rounded-2xl bg-af-green/10 border-l-4 border-af-green">
+              <h3 className="text-af-green font-bold text-sm uppercase tracking-wider mb-2">{t.whyTitle}</h3>
+              <p className="text-af-ink/70 leading-relaxed text-sm">{t.whyDesc}</p>
+            </motion.div>
+          </div>
 
-        {/* Why it matters */}
-        <motion.div variants={FU(0.3)} initial="hidden" animate={inView ? "visible" : "hidden"}
-          className="p-8 rounded-3xl bg-af-sienna/[0.07] border border-af-sienna/20">
-          <h3 className="text-af-sienna font-bold text-sm mb-3">{t.whyTitle}</h3>
-          <p className="text-af-sand/60 leading-relaxed">{t.whyDesc}</p>
-        </motion.div>
+          {/* Right: steps */}
+          <div className="grid grid-cols-1 gap-4">
+            {steps.map((s, i) => (
+              <motion.div key={i} variants={FU(i * 0.1 + 0.1)} initial="hidden" animate={inView ? "visible" : "hidden"}
+                className="flex gap-6 p-6 bg-white rounded-2xl shadow-sm border border-black/[0.06] hover:shadow-md transition-shadow group">
+                <div className="font-serif text-5xl font-bold text-af-ink/10 leading-none flex-shrink-0 w-12">{s.n}</div>
+                <div>
+                  <h3 className="font-serif text-lg font-bold text-af-ink mb-2 group-hover:text-af-green transition-colors">{s.title}</h3>
+                  <p className="text-af-muted text-sm leading-relaxed">{s.desc}</p>
+                </div>
+              </motion.div>
+            ))}
+          </div>
+        </div>
       </div>
     </section>
   );

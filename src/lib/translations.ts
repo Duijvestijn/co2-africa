@@ -239,4 +239,217 @@ export const translations = {
       copyright: "© 2026 CO2.Africa — Tous droits réservés.",
     },
   },
+
+  standards: {
+    en: {
+      label: "Certification & Verification",
+      title: "Built on the World's Leading Carbon Standards",
+      subtitle: "Every credit we work with is verified against internationally recognised frameworks.",
+      standards: [
+        {
+          code: "VCS",
+          name: "Verra Verified Carbon Standard",
+          desc: "The world's most widely used voluntary carbon standard. VCS projects have issued over 1 billion verified carbon credits across 80+ countries.",
+          stat: "1B+ credits issued",
+        },
+        {
+          code: "GS",
+          name: "Gold Standard",
+          desc: "Rigorous certification ensuring projects deliver not just carbon reductions but measurable sustainable development benefits for local communities.",
+          stat: "3,300+ certified projects",
+        },
+        {
+          code: "ART",
+          name: "Architecture for REDD+ Transactions",
+          desc: "Jurisdictional-scale REDD+ crediting that enables national governments to monetise forest protection across entire landscapes.",
+          stat: "National-scale crediting",
+        },
+        {
+          code: "CCB",
+          name: "Climate, Community & Biodiversity",
+          desc: "Additional certification layer that verifies net positive impacts on climate, local communities, and biodiversity — the gold standard for co-benefits.",
+          stat: "Triple co-benefit verified",
+        },
+        {
+          code: "A6",
+          name: "Article 6 — Paris Agreement",
+          desc: "The international compliance carbon market framework. Article 6 bilateral agreements enable sovereign carbon credit trade between nations.",
+          stat: "Sovereign-level credits",
+        },
+        {
+          code: "IFM",
+          name: "Improved Forest Management",
+          desc: "Methodology for sustainably managed forests, reducing harvest intensity to increase carbon stocks above business-as-usual baselines.",
+          stat: "Long-term sequestration",
+        },
+      ],
+    },
+    fr: {
+      label: "Certification & Vérification",
+      title: "Fondé sur les Normes Carbone Mondiales les Plus Reconnues",
+      subtitle: "Chaque crédit avec lequel nous travaillons est vérifié selon des cadres reconnus internationalement.",
+      standards: [
+        {
+          code: "VCS",
+          name: "Verra Verified Carbon Standard",
+          desc: "La norme carbone volontaire la plus utilisée au monde. Les projets VCS ont émis plus d'un milliard de crédits carbone vérifiés dans plus de 80 pays.",
+          stat: "1 Mrd+ crédits émis",
+        },
+        {
+          code: "GS",
+          name: "Gold Standard",
+          desc: "Certification rigoureuse garantissant que les projets apportent non seulement des réductions de carbone mais des bénéfices mesurables pour les communautés locales.",
+          stat: "3 300+ projets certifiés",
+        },
+        {
+          code: "ART",
+          name: "Architecture for REDD+ Transactions",
+          desc: "Créditation REDD+ à l'échelle juridictionnelle permettant aux gouvernements nationaux de monétiser la protection des forêts à l'échelle des paysages.",
+          stat: "Créditation nationale",
+        },
+        {
+          code: "CCB",
+          name: "Climat, Communauté & Biodiversité",
+          desc: "Couche de certification supplémentaire vérifiant les impacts positifs nets sur le climat, les communautés locales et la biodiversité.",
+          stat: "Triple co-bénéfice vérifié",
+        },
+        {
+          code: "A6",
+          name: "Article 6 — Accord de Paris",
+          desc: "Le cadre international du marché carbone de conformité. Les accords bilatéraux Article 6 permettent le commerce souverain de crédits carbone entre nations.",
+          stat: "Crédits souverains",
+        },
+        {
+          code: "IFM",
+          name: "Gestion Forestière Améliorée",
+          desc: "Méthodologie pour les forêts gérées durablement, réduisant l'intensité d'exploitation pour augmenter les stocks de carbone au-dessus des niveaux de référence.",
+          stat: "Séquestration à long terme",
+        },
+      ],
+    },
+  },
+
+  flagship: {
+    en: {
+      label: "Featured Project",
+      title: "Congo Basin REDD+ — Green Earth Africa",
+      subtitle: "The world's most biodiverse forest system, now generating verified carbon credits.",
+      location: "Democratic Republic of Congo — Équateur Province",
+      area: "485,000 hectares",
+      status: "Active",
+      statusDesc: "Verra VCS registered — credits issuable",
+      description:
+        "Spanning nearly half a million hectares of intact equatorial rainforest in DRC's Équateur Province, this REDD+ project protects critical carbon stocks and biodiversity hotspots from deforestation drivers including agricultural expansion and illegal logging. The project is structured under Verra's VCS methodology VM0015 and delivers verified carbon credits to international buyers.",
+      credentials: [
+        { label: "Registry", value: "Verra Verified Carbon Standard (VCS)" },
+        { label: "Methodology", value: "VM0015 — REDD+ Methodology Framework" },
+        { label: "Project Area", value: "485,000 hectares" },
+        { label: "Estimated Credits", value: "1.2M tCO₂ / year" },
+        { label: "Co-benefits", value: "CCB Gold Level — Biodiversity & Community" },
+        { label: "Country", value: "Democratic Republic of Congo" },
+      ],
+      impactTitle: "Measurable Impact",
+      impacts: [
+        { value: "1.2M", label: "tCO₂ credits per year" },
+        { value: "485K", label: "Hectares protected" },
+        { value: "12K+", label: "Community members benefiting" },
+        { value: "800+", label: "Species of fauna & flora" },
+      ],
+      cta: "Request Project Details",
+    },
+    fr: {
+      label: "Projet Phare",
+      title: "REDD+ Bassin du Congo — Green Earth Afrique",
+      subtitle: "Le système forestier le plus biodiverse au monde génère désormais des crédits carbone vérifiés.",
+      location: "République Démocratique du Congo — Province de l'Équateur",
+      area: "485 000 hectares",
+      status: "Actif",
+      statusDesc: "Enregistré Verra VCS — crédits émissibles",
+      description:
+        "S'étendant sur près d'un demi-million d'hectares de forêt équatoriale intacte dans la Province de l'Équateur en RDC, ce projet REDD+ protège des stocks de carbone essentiels et des hotspots de biodiversité contre la déforestation due à l'expansion agricole et l'exploitation forestière illégale. Le projet est structuré selon la méthodologie Verra VCS VM0015 et délivre des crédits carbone vérifiés aux acheteurs internationaux.",
+      credentials: [
+        { label: "Registre", value: "Verra Verified Carbon Standard (VCS)" },
+        { label: "Méthodologie", value: "VM0015 — Cadre Méthodologique REDD+" },
+        { label: "Superficie", value: "485 000 hectares" },
+        { label: "Crédits estimés", value: "1,2 M tCO₂ / an" },
+        { label: "Co-bénéfices", value: "CCB Niveau Or — Biodiversité & Communauté" },
+        { label: "Pays", value: "République Démocratique du Congo" },
+      ],
+      impactTitle: "Impact Mesurable",
+      impacts: [
+        { value: "1,2M", label: "tCO₂ crédits par an" },
+        { value: "485K", label: "Hectares protégés" },
+        { value: "12K+", label: "Membres communautaires bénéficiaires" },
+        { value: "800+", label: "Espèces de faune & flore" },
+      ],
+      cta: "Demander les Détails du Projet",
+    },
+  },
+
+  insights: {
+    en: {
+      label: "Market Intelligence",
+      title: "Insights & Analysis",
+      subtitle: "Perspectives on Africa's evolving carbon markets, project pipeline, and international frameworks.",
+      articles: [
+        {
+          tag: "Market",
+          date: "May 2026",
+          title: "Africa's Voluntary Carbon Market Reaches Record $4.2B in Transaction Volume",
+          excerpt:
+            "New data from Ecosystem Marketplace confirms Africa has overtaken Latin America as the fastest-growing voluntary carbon credit supplier, with REDD+ and blue carbon leading demand.",
+          href: "#why-africa",
+        },
+        {
+          tag: "Policy",
+          date: "April 2026",
+          title: "Article 6 Bilateral Agreements: Which African Nations Are Moving First?",
+          excerpt:
+            "Kenya, Ghana, and Gabon are leading the continent in signing Article 6.2 bilateral agreements, unlocking sovereign-level carbon credit exports under the Paris Agreement.",
+          href: "#what-is",
+        },
+        {
+          tag: "Science",
+          date: "March 2026",
+          title: "Blue Carbon Revisited: Why African Mangroves Are the World's Most Valuable Carbon Asset",
+          excerpt:
+            "A landmark study in Nature Climate Change confirms that East African mangroves sequester up to 1,000 tonnes of CO₂ per hectare — redefining the economics of coastal restoration.",
+          href: "#projects",
+        },
+      ],
+      readMore: "Read more",
+    },
+    fr: {
+      label: "Intelligence du Marché",
+      title: "Analyses & Perspectives",
+      subtitle: "Points de vue sur l'évolution des marchés carbone africains, le pipeline de projets et les cadres internationaux.",
+      articles: [
+        {
+          tag: "Marché",
+          date: "Mai 2026",
+          title: "Le Marché Carbone Volontaire Africain Atteint un Record de 4,2 Mrd$ de Transactions",
+          excerpt:
+            "De nouvelles données d'Ecosystem Marketplace confirment que l'Afrique a dépassé l'Amérique latine comme fournisseur de crédits carbone volontaires à la croissance la plus rapide, avec le REDD+ et le carbone bleu en tête de la demande.",
+          href: "#why-africa",
+        },
+        {
+          tag: "Politique",
+          date: "Avril 2026",
+          title: "Accords Bilatéraux Article 6 : Quelles Nations Africaines Bougent en Premier ?",
+          excerpt:
+            "Le Kenya, le Ghana et le Gabon mènent le continent dans la signature d'accords bilatéraux Article 6.2, débloquant des exportations de crédits carbone souverains dans le cadre de l'Accord de Paris.",
+          href: "#what-is",
+        },
+        {
+          tag: "Science",
+          date: "Mars 2026",
+          title: "Carbone Bleu Revisité : Pourquoi les Mangroves Africaines Sont l'Actif Carbone le Plus Précieux au Monde",
+          excerpt:
+            "Une étude phare dans Nature Climate Change confirme que les mangroves d'Afrique orientale séquestrent jusqu'à 1 000 tonnes de CO₂ par hectare, redéfinissant l'économie de la restauration côtière.",
+          href: "#projects",
+        },
+      ],
+      readMore: "Lire la suite",
+    },
+  },
 };

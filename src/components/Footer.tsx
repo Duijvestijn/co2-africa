@@ -30,6 +30,7 @@ export default function Footer() {
                 { label: nav.credits, href: "#what-is" },
                 { label: nav.why, href: "#why-africa" },
                 { label: nav.projects, href: "#projects" },
+                { label: nav.insights, href: `/${lang}/insights` },
                 { label: nav.contact, href: "#contact" },
               ].map(({ label, href }) => (
                 <li key={href}>

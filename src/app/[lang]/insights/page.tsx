@@ -141,6 +141,30 @@ export default async function InsightsIndexPage({ params }: { params: Promise<{ 
           </div>
         </div>
       </main>
+
+      {/* Newsletter CTA */}
+      <div className="bg-af-dark py-16">
+        <div className="max-w-2xl mx-auto px-6 text-center">
+          <span className="text-xs tracking-[0.3em] uppercase text-af-sienna/70 font-bold block mb-3">
+            {l === "fr" ? "Restez informé" : "Stay informed"}
+          </span>
+          <h2 className="font-serif text-3xl font-bold text-white mb-4">
+            {l === "fr" ? "Recevez les nouveaux articles par email" : "Get new articles in your inbox"}
+          </h2>
+          <p className="text-white/50 mb-8 leading-relaxed text-sm">
+            {l === "fr"
+              ? "Rejoignez ~2 000 lecteurs qui suivent l'évolution des marchés carbone."
+              : "Join ~2,000 readers tracking carbon market developments."}
+          </p>
+          <a
+            href={`/${l}#contact`}
+            className="inline-flex items-center gap-2 px-6 py-3 bg-af-sienna hover:opacity-90 text-white font-bold rounded-full transition-opacity text-sm tracking-wide"
+          >
+            {l === "fr" ? "S'abonner via le formulaire" : "Subscribe via contact form"}
+          </a>
+        </div>
+      </div>
+
       <Footer />
     </>
   );

@@ -1,6 +1,5 @@
 "use client";
-import { useRef } from "react";
-import { motion, useScroll, useTransform } from "framer-motion";
+import { motion } from "framer-motion";
 import { useLang } from "@/lib/LangContext";
 import { translations } from "@/lib/translations";
 import { IMAGES } from "@/lib/images";
@@ -16,21 +15,17 @@ const FADE_UP = {
 export default function HeroSection() {
   const { lang } = useLang();
   const t = translations.hero[lang];
-  const containerRef = useRef<HTMLDivElement>(null);
-  const { scrollYProgress } = useScroll({ target: containerRef, offset: ["start start", "end start"] });
-  const bgY = useTransform(scrollYProgress, [0, 1], ["0%", "30%"]);
-  const opacity = useTransform(scrollYProgress, [0, 0.6], [1, 0]);
 
   return (
-    <section ref={containerRef} id="hero" className="relative min-h-screen flex items-end overflow-hidden">
+    <section id="hero" className="relative min-h-screen flex items-end overflow-hidden">
       {/* Background */}
-      <motion.div style={{ y: bgY }} className="absolute inset-0 scale-110">
+      <div className="absolute inset-0">
         <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: `url(${IMAGES.hero})` }} />
         <div className="absolute inset-0 bg-gradient-to-r from-af-dark/90 via-af-dark/60 to-af-dark/20" />
         <div className="absolute inset-0 bg-gradient-to-t from-af-dark/80 via-transparent to-af-dark/30" />
-      </motion.div>
+      </div>
 
-      <motion.div style={{ opacity }} className="relative z-10 w-full pb-24 pt-32">
+      <div className="relative z-10 w-full pb-24 pt-32">
         <div className="max-w-6xl mx-auto px-6">
           <div className="max-w-3xl">
             {/* Label */}
@@ -41,7 +36,7 @@ export default function HeroSection() {
             </motion.div>
 
             {/* Headline */}
-            <motion.h1 custom={1} variants={FADE_UP} initial="hidden" animate="visible"
+            <motion.h1 custom={1} variants={FADE_UP} initial={{ opacity: 1, y: 0 }} animate="visible"
               className="font-serif text-6xl sm:text-7xl md:text-8xl font-bold leading-[1.0] text-white mb-6">
               {t.titleLine1}
               <br />
@@ -68,7 +63,7 @@ export default function HeroSection() {
             </motion.div>
           </div>
         </div>
-      </motion.div>
+      </div>
 
       {/* Scroll indicator */}
       <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 2.5 }}

@@ -66,6 +66,13 @@ export default function FlagshipProjectSection() {
               className="self-start px-7 py-3.5 bg-af-sienna hover:bg-af-sienna-light text-white font-bold text-sm rounded-xl transition-colors">
               {t.cta}
             </motion.a>
+            {t.registryUrl && (
+              <motion.a variants={FU(0.38)} initial="hidden" animate={inView ? "visible" : "hidden"}
+                href={t.registryUrl} target="_blank" rel="noopener noreferrer"
+                className="self-start mt-3 text-xs text-white/50 hover:text-af-sienna flex items-center gap-1 transition-colors">
+                {t.registryLabel}
+              </motion.a>
+            )}
           </div>
 
           {/* Right: full image */}

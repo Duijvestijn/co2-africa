@@ -633,4 +633,59 @@ export const translations = {
       readMore: "Lire la suite",
     },
   },
+
+  faq: {
+    en: {
+      label: "Common Questions",
+      title: "Understanding African Carbon Markets",
+      items: [
+        {
+          q: "Why is Africa the world's fastest-growing carbon market?",
+          a: "Africa holds over 65% of the world's remaining restorable land, including the Congo Basin, East African savannas, and Indian Ocean coastline. Nature-based carbon projects — reforestation, grassland management, and blue carbon — can be developed at scale with high integrity. Combined with growing demand from European CSRD-regulated buyers, Africa has overtaken Latin America as the fastest-growing voluntary carbon credit supplier.",
+        },
+        {
+          q: "What is Article 6 and why does it matter for Africa?",
+          a: "Article 6 of the Paris Agreement allows countries to sell internationally transferable mitigation outcomes (ITMOs) to other nations or buyers. For Africa, this means sovereign-level carbon credit exports backed by government guarantees. Kenya, Ghana, and Gabon are leading in signing Article 6.2 bilateral agreements that unlock these sovereign carbon exports.",
+        },
+        {
+          q: "What certification standards are used for African projects?",
+          a: "Most African carbon projects are certified under Verra's Verified Carbon Standard (VCS) or Gold Standard — the two globally recognised voluntary carbon standards. Projects in biodiversity-critical areas additionally carry CCB (Climate, Community and Biodiversity) certification, which commands a price premium from high-integrity buyers.",
+        },
+        {
+          q: "How do African communities benefit from carbon projects?",
+          a: "Africa's leading carbon frameworks require 30–50% of credit revenue to flow directly to project-area communities through verified escrow or benefit-sharing arrangements. For grassland management and REDD+ projects, this often represents the primary cash income for pastoral and subsistence farming communities.",
+        },
+        {
+          q: "How does Green Earth Group operate across Africa?",
+          a: "Green Earth Group develops, registers, and commercialises nature-based carbon projects across sub-Saharan Africa. We work with community landowners, county governments, conservation NGOs, and international buyers to structure VCS-compliant projects that meet the highest standards for carbon integrity and community benefit.",
+        },
+      ],
+    },
+    fr: {
+      label: "Questions Fréquentes",
+      title: "Comprendre les Marchés Carbone Africains",
+      items: [
+        {
+          q: "Pourquoi l'Afrique est-elle le marché carbone à la croissance la plus rapide au monde?",
+          a: "L'Afrique détient plus de 65% des terres restaurables restantes dans le monde, dont le Bassin du Congo, les savanes d'Afrique orientale et le littoral de l'océan Indien. Les projets carbone fondés sur la nature peuvent être développés à grande échelle avec une haute intégrité. Combiné à la demande croissante des acheteurs européens soumis à la CSRD, l'Afrique a dépassé l'Amérique latine comme fournisseur de crédits carbone volontaires à la croissance la plus rapide.",
+        },
+        {
+          q: "Qu'est-ce que l'Article 6 et pourquoi est-il important pour l'Afrique?",
+          a: "L'Article 6 de l'Accord de Paris permet aux pays de vendre des résultats d'atténuation transférables internationalement (ITMO) à d'autres nations ou acheteurs. Pour l'Afrique, cela signifie des exportations de crédits carbone au niveau souverain, garanties par les gouvernements. Le Kenya, le Ghana et le Gabon signent des accords bilatéraux Article 6.2 qui débloquent ces exportations souveraines.",
+        },
+        {
+          q: "Quelles normes de certification sont utilisées pour les projets africains?",
+          a: "La plupart des projets carbone africains sont certifiés sous le Verified Carbon Standard (VCS) de Verra ou le Gold Standard. Les projets dans des zones à haute biodiversité portent en plus la certification CCB, qui offre une prime de prix chez les acheteurs recherchant la haute intégrité.",
+        },
+        {
+          q: "Comment les communautés africaines bénéficient-elles des projets carbone?",
+          a: "Les cadres carbone africains leaders exigent que 30 à 50% des revenus de crédits reviennent directement aux communautés de la zone de projet via des arrangements de partage des bénéfices vérifiés, représentant souvent le principal revenu monétaire des communautés pastorales.",
+        },
+        {
+          q: "Comment Green Earth Group opère-t-il à travers l'Afrique?",
+          a: "Green Earth Group développe, enregistre et commercialise des projets carbone fondés sur la nature en Afrique subsaharienne. Nous travaillons avec des propriétaires fonciers communautaires, des gouvernements locaux, des ONG de conservation et des acheteurs internationaux pour structurer des projets conformes au VCS.",
+        },
+      ],
+    },
+  },
 };

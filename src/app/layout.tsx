@@ -7,16 +7,19 @@ import Script from "next/script";
 const orgJsonLd = {
   "@context": "https://schema.org",
   "@type": "Organization",
-  name: "CO2.Africa",
-  alternateName: ["African Carbon Credits", "Crédits Carbone Afrique"],
+  name: "CO2 Africa",
   url: "https://co2.africa",
-  description:
-    "Africa's leading platform for nature restoration and carbon finance — Congo Basin, savanna, mangrove, and Sahel projects under Verra VCS.",
-  areaServed: { "@type": "Continent", name: "Africa" },
-  knowsAbout: [
-    "Carbon Credits", "Nature Restoration Africa", "Congo Basin Agroforestry",
-    "Mangrove Restoration", "Savanna Carbon", "Verra VCS", "Paris Agreement NDC",
-  ],
+  description: "Africa carbon markets intelligence — continental overview, country analysis, and Article 6 developments.",
+  sameAs: ["https://co2.ke", "https://co2.ug", "https://co2.cm"],
+};
+
+const websiteJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  name: "CO2.africa",
+  url: "https://co2.africa",
+  inLanguage: ["en", "fr"],
+  description: "Africa carbon markets intelligence platform.",
 };
 
 export const metadata: Metadata = {
@@ -56,6 +59,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(orgJsonLd).replace(/</g, "\\u003c") }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd).replace(/</g, "\\u003c") }}
         />
       </head>
       <Script id="gtm-loader" strategy="afterInteractive">

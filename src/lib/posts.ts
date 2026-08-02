@@ -126,6 +126,102 @@ export const posts: Post[] = [
       },
     },
   },
+  {
+    slug: "ethiopia-jredd-first-issuance",
+    date: "2026-07-17",
+    lang: {
+      en: {
+        title: "Ethiopia Issues First Credits Under World Bank JREDD+ — 14.9 Million Tonnes from Oromia",
+        excerpt: "Ethiopia has become the first country to issue carbon credits under the World Bank's ISFL jurisdictional REDD+ standard, with 14.9 million tCO2e from the Oromia region now registered and 12.4 million available for market.",
+        content: `<p>Ethiopia has made history in July 2026, becoming the first country to issue carbon credits under the World Bank's Initiative for Sustainable Forest Landscapes (ISFL) — the world's most prominent jurisdictional REDD+ standard. The issuance covers 14.9 million tonnes of CO2 equivalent (tCO2e) from the Oromia region, home to more than 30 million people and over half of Ethiopia's forest cover. Of these, 12.4 million tCO2e are available for market trading.</p>
+
+<h2>What ISFL Is — and Why It Matters</h2>
+<p>The ISFL is the World Bank's BioCarbon Fund programme for jurisdictional REDD+ — meaning it operates at a regional government level rather than individual project level. Unlike voluntary project-level credits, ISFL credits represent a government-backed, landscape-scale commitment to forest conservation and community livelihoods. Ethiopia's Oromia ISFL programme has been in development for over a decade, with the World Bank, the Government of Ethiopia, and the Oromia regional government as co-parties.</p>
+
+<p>Countries also developing ISFL projects include Colombia, Indonesia, Mexico, and Zambia — meaning Ethiopia's issuance sets a template for jurisdictional REDD+ delivery across the Global South.</p>
+
+<h2>The Path to Corsia and ART</h2>
+<p>For Ethiopia, the issuance opens a potential pathway to the aviation sector's Corsia decarbonisation scheme, and to migration onto ART (Architecture for REDD+ Transactions), the most sought-after JREDD+ standard among institutional buyers. Both pathways would significantly expand buyer access and pricing potential for Oromia's credits.</p>
+
+<p>The milestone is a signal to the entire East African region: jurisdictional forest carbon — not just individual project credits — is becoming a viable asset class. Kenya, Uganda, Tanzania, and the DRC are all watching closely.</p>
+
+<h2>What This Means for Africa's Carbon Markets</h2>
+<p>Ethiopia's ISFL issuance represents a maturation of African forest carbon beyond cookstoves and individual REDD+ concessions. It demonstrates that national governments can manage, register, and bring to market landscape-scale credits — a prerequisite for the volumes that airline buyers, sovereign wealth funds, and large corporates actually need. For co2.africa's regional coverage area, it is one of the most consequential carbon market events of 2026.</p>
+
+<p>Related: <a href="/en/blog/article-6-east-central-africa">How Kenya, Uganda and Cameroon Compare on Article 6</a></p>`,
+      },
+      fr: {
+        title: "L'Éthiopie Émet les Premiers Crédits sous JREDD+ de la Banque Mondiale — 14,9 Millions de Tonnes depuis l'Oromia",
+        excerpt: "L'Éthiopie est devenue le premier pays à émettre des crédits carbone sous le standard JREDD+ ISFL de la Banque Mondiale — 14,9 millions de tCO2e depuis la région d'Oromia, dont 12,4 millions disponibles pour le marché.",
+        content: `<p>En juillet 2026, l'Éthiopie est entrée dans l'histoire en devenant le premier pays à émettre des crédits carbone sous l'Initiative pour des Paysages Forestiers Durables (ISFL) de la Banque Mondiale — le standard JREDD+ juridictionnel le plus prominent au monde. L'émission couvre 14,9 millions de tonnes d'équivalent CO2 (tCO2e) issues de la région d'Oromia, qui abrite plus de 30 millions de personnes et plus de la moitié du couvert forestier éthiopien. Parmi ces crédits, 12,4 millions de tCO2e sont disponibles pour la négociation sur le marché.</p>
+
+<h2>Qu'est-ce que l'ISFL et Pourquoi Est-ce Important</h2>
+<p>L'ISFL est le programme BioCarbon Fund de la Banque Mondiale pour le REDD+ juridictionnel — ce qui signifie qu'il opère au niveau des gouvernements régionaux plutôt qu'au niveau des projets individuels. Contrairement aux crédits volontaires de niveau projet, les crédits ISFL représentent un engagement gouvernemental à l'échelle du paysage pour la conservation des forêts et les moyens de subsistance des communautés. Le programme ISFL d'Oromia est en développement depuis plus d'une décennie, avec la Banque Mondiale, le Gouvernement éthiopien et le gouvernement régional d'Oromia comme co-parties.</p>
+
+<p>D'autres pays développent également des projets ISFL, notamment la Colombie, l'Indonésie, le Mexique et la Zambie — ce qui signifie que l'émission éthiopienne établit un modèle pour la livraison JREDD+ juridictionnel dans l'ensemble du Sud global.</p>
+
+<h2>La Voie vers Corsia et ART</h2>
+<p>Pour l'Éthiopie, l'émission ouvre une voie potentielle vers le programme Corsia de décarbonisation du secteur aérien, et vers une migration vers ART (Architecture for REDD+ Transactions), le standard JREDD+ le plus recherché par les acheteurs institutionnels. Les deux voies élargiraient considérablement l'accès des acheteurs et le potentiel de prix pour les crédits d'Oromia.</p>
+
+<p>Cette étape est un signal pour toute la région d'Afrique de l'Est : le carbone forestier juridictionnel — pas seulement les crédits de projets individuels — devient une classe d'actifs viable. Le Kenya, l'Ouganda, la Tanzanie et la RDC observent tous attentivement.</p>
+
+<h2>Ce que Cela Signifie pour les Marchés Carbone Africains</h2>
+<p>L'émission ISFL de l'Éthiopie représente une maturation du carbone forestier africain au-delà des foyers améliorés et des concessions REDD+ individuelles. Elle démontre que les gouvernements nationaux peuvent gérer, enregistrer et commercialiser des crédits à l'échelle du paysage — un prérequis pour les volumes dont les compagnies aériennes, les fonds souverains et les grandes entreprises ont réellement besoin. Pour la couverture régionale de co2.africa, il s'agit de l'un des événements les plus importants des marchés carbone de 2026.</p>
+
+<p>À lire également: <a href="/fr/blog/article-6-east-central-africa">Comment le Kenya, l'Ouganda et le Cameroun se Comparent sur l'Article 6</a></p>`,
+      },
+    },
+  },
+  {
+    slug: "drc-lumiere-carbon-registry",
+    date: "2026-07-06",
+    lang: {
+      en: {
+        title: "DRC Establishes the Lumière National Carbon Registry — and Why Investors Are Watching",
+        excerpt: "The Democratic Republic of Congo has formally created the Lumière National Carbon Registry and a Carbon Market Regulatory Authority, establishing a legal framework for Article 6.2 carbon trading. But a local NGO is raising red flags.",
+        content: `<p>The Democratic Republic of Congo — home to the world's second-largest tropical forest and arguably the most consequential country for global REDD+ supply — has formalised its carbon market governance. In June 2026, the DRC's government enacted a law establishing the <strong>Lumière National Carbon Registry</strong> and a <strong>Carbon Market Regulatory Authority</strong> with supervisory and sanctioning powers. The law also sets rules for trading Internationally Transferred Mitigation Outcomes (ITMOs) under Article 6.2 of the Paris Agreement.</p>
+
+<h2>What the Law Creates</h2>
+<p>The new framework formally establishes the procedures by which DRC-based carbon projects can obtain government authorisation to transfer credits internationally. Previously, the absence of a legally defined registry and regulatory body had been a persistent obstacle for developers seeking Letters of Authorisation (LoAs) from the Congolese government — a prerequisite for both Corsia insurance coverage and Article 6.2 compliance.</p>
+
+<p>For the 71 active REDD+ concessions covering 17.7 million hectares (as of June 2026), and the 61 carbon projects registered or in the process of registering in DRC, this framework is a potential unlock — provided it is implemented consistently and transparently.</p>
+
+<h2>The Warning Signal</h2>
+<p>Not everyone is cheering. A local civil society group, the <strong>Groupe de Travail Climat REDD+ Rénové (GTCRR)</strong>, called for the legislative process to be suspended. Their position note warned that the current draft was developed without adequate consultation with provinces, local communities, indigenous peoples, project developers, or technical partners. GTCRR cautioned that institutional fragmentation and lack of transparency could push investors towards more stable African jurisdictions — and undermine DRC's ability to fund its own NDC and forest protection goals.</p>
+
+<p>Additionally, DRC is targeting November 2026 for publication of its Biennial Transparency Report (BTR) — the UN-linked document that provides the "insurance route" to Corsia market access for most DRC-based projects. Major insurers including Oka have excluded DRC due to existing sanctions, making the BTR the primary path to market for most developers.</p>
+
+<h2>France Steps In</h2>
+<p>Separately, France and DRC signed a Memorandum of Understanding in July 2026 to launch the <strong>Z3D programme</strong> (Zero Deforestation and Degradation for Development), financed by the Agence Française de Développement and forming part of France's commitments under the Belém Call for the Forests of the Congo Basin — a declaration launched at COP30.</p>
+
+<p>The DRC story is one of extraordinary potential and real implementation risk. Investors who can navigate both will find a frontier market like no other on the continent.</p>
+
+<p>Related: <a href="/en/blog/redd-plus-east-central-africa">REDD+ Across Borders: Kenya, Uganda and the Congo Basin</a></p>`,
+      },
+      fr: {
+        title: "La RDC Crée le Registre National du Carbone Lumière — et Pourquoi les Investisseurs Regardent de Près",
+        excerpt: "La République Démocratique du Congo a formellement établi le Registre National du Carbone Lumière et une Autorité de Régulation du Marché Carbone, créant un cadre légal pour le commerce de crédits carbone sous l'Article 6.2. Mais une ONG locale tire la sonnette d'alarme.",
+        content: `<p>La République Démocratique du Congo — qui abrite la deuxième plus grande forêt tropicale au monde et constitue sans doute le pays le plus déterminant pour l'offre mondiale de REDD+ — a formalisé sa gouvernance du marché carbone. En juin 2026, le gouvernement de la RDC a promulgué une loi établissant le <strong>Registre National du Carbone Lumière</strong> et une <strong>Autorité de Régulation du Marché Carbone</strong> dotée de pouvoirs de supervision et de sanction. La loi fixe également des règles pour le commerce des Résultats d'Atténuation Transférés Internationalement (ITMOs) dans le cadre de l'Article 6.2 de l'Accord de Paris.</p>
+
+<h2>Ce que la Loi Crée</h2>
+<p>Le nouveau cadre établit formellement les procédures par lesquelles les projets carbone basés en RDC peuvent obtenir l'autorisation gouvernementale pour transférer des crédits à l'international. Auparavant, l'absence d'un registre légalement défini et d'un organe réglementaire avait constitué un obstacle persistant pour les développeurs cherchant des Lettres d'Autorisation (LoA) du gouvernement congolais — un préalable à la fois pour la couverture d'assurance Corsia et pour la conformité avec l'Article 6.2.</p>
+
+<p>Pour les 71 concessions REDD+ actives couvrant 17,7 millions d'hectares (en juin 2026), et les 61 projets carbone enregistrés ou en cours d'enregistrement en RDC, ce cadre représente un potentiel déblocage — à condition qu'il soit mis en œuvre de manière cohérente et transparente.</p>
+
+<h2>Le Signal d'Avertissement</h2>
+<p>Tout le monde ne se réjouit pas. Un groupe local de la société civile, le <strong>Groupe de Travail Climat REDD+ Rénové (GTCRR)</strong>, a appelé à la suspension du processus législatif. Leur note de position avertissait que le projet actuel avait été élaboré sans consultation adéquate des provinces, des communautés locales, des peuples autochtones, des développeurs de projets ou des partenaires techniques. Le GTCRR a mis en garde que la fragmentation institutionnelle et le manque de transparence pourraient pousser les investisseurs vers des juridictions africaines plus stables — et compromettre la capacité de la RDC à financer ses propres objectifs de NDC et de protection des forêts.</p>
+
+<p>Par ailleurs, la RDC vise novembre 2026 pour la publication de son Rapport de Transparence Biennal (BTR) — le document lié aux Nations Unies qui constitue la "voie d'assurance" pour l'accès au marché Corsia pour la plupart des projets basés en RDC. Les principaux assureurs, dont Oka, ont exclu la RDC en raison de sanctions existantes, faisant du BTR la principale voie d'accès au marché pour la plupart des développeurs.</p>
+
+<h2>La France Intervient</h2>
+<p>Par ailleurs, la France et la RDC ont signé un Mémorandum d'Entente en juillet 2026 pour lancer le <strong>programme Z3D</strong> (Zéro Déforestation et Dégradation pour le Développement), financé par l'Agence Française de Développement et s'inscrivant dans le cadre des engagements de la France dans l'Appel de Belém pour les Forêts du Bassin du Congo — une déclaration lancée lors de la COP30.</p>
+
+<p>L'histoire de la RDC est celle d'un potentiel extraordinaire et d'un risque de mise en œuvre réel. Les investisseurs capables de naviguer entre les deux trouveront un marché frontier comme nulle part ailleurs sur le continent.</p>
+
+<p>À lire également: <a href="/fr/blog/redd-plus-east-central-africa">REDD+ Au-delà des Frontières: Kenya, Ouganda et le Bassin du Congo</a></p>`,
+      },
+    },
+  },
 ];
 
 export function getPost(slug: string): Post | undefined {

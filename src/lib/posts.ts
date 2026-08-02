@@ -222,6 +222,62 @@ export const posts: Post[] = [
       },
     },
   },
+  {
+    slug: "ethiopia-isfl-jredd-first-issuance",
+    date: "2026-07-06",
+    lang: {
+      en: {
+        title: "Ethiopia Issues First ISFL Jurisdictional REDD+ Credits: 14.9 Million Tonnes From Oromia",
+        excerpt: "Ethiopia completed the first issuance of Integrated Landscape credits under the World Bank's Initiative for Sustainable Forest Landscapes (ISFL), with 14.9 million tonnes of CO2 equivalent from the Oromia region — a landmark for African jurisdictional carbon markets.",
+        content: `<p>Ethiopia has completed the first credit issuance under the World Bank's <strong>Initiative for Sustainable Forest Landscapes (ISFL)</strong> — the first jurisdictional REDD+ issuance of its kind on the African continent. The issuance covers <strong>14.9 million tonnes of CO2 equivalent</strong> from the Oromia region, with approximately <strong>12.4 million tonnes available for market</strong> after the buffer pool allocation.</p>
+
+<h2>What Makes This a Landmark</h2>
+<p>Jurisdictional REDD+ credits differ from project-level REDD+ in a critical way: instead of crediting individual forest protection projects within a region, they measure and credit emissions reductions across an entire jurisdiction — in this case, the Oromia regional state of Ethiopia, home to roughly 35 million people and the largest regional forest estate in East Africa.</p>
+
+<p>This "jurisdictional" approach is considered more robust because it addresses leakage (deforestation shifting to uncredited areas outside project boundaries) and accounts for permanence risk at scale. For carbon buyers who have faced criticism over individual REDD+ project performance, jurisdictional credits represent a higher-integrity alternative.</p>
+
+<h2>ISFL: The World Bank's Nested Architecture</h2>
+<p>The ISFL, managed by the World Bank's BioCarbon Fund, operates by funding governments directly to implement national or subnational REDD+ programs. Oromia's program has been under development since 2014, covering sustainable land management, agroforestry, and forest conservation across approximately 19 million hectares.</p>
+
+<p>The 14.9 million tCO2e issuance is the result of verified emissions reductions and removals against a historical baseline. The 2.5 million tonnes set aside in the buffer account provide a permanence safeguard — if forest cover is lost in future years due to drought or political instability, these tonnes are cancelled rather than leaving buyers exposed.</p>
+
+<h2>What It Means for African Carbon Markets</h2>
+<p>The Oromia ISFL issuance is significant beyond Ethiopia. Several African governments — including Ghana, Kenya, and the DRC — are developing similar jurisdictional REDD+ programs under ISFL or under the Forest Carbon Partnership Facility (FCPF). A successful first issuance from Ethiopia demonstrates that the model works at scale, providing confidence to other governments and to sovereign buyers considering jurisdictional forest carbon.</p>
+
+<p>For the East and Central African carbon pipeline, this is also a signal that large-volume, high-integrity supply is becoming available — not just small-scale project credits. At 12.4 million marketable tonnes, the Oromia issuance is among the largest single carbon credit batches ever issued on the continent.</p>
+
+<h2>Buyer Landscape</h2>
+<p>ISFL credits typically target sovereign and institutional buyers — national governments meeting Paris Agreement commitments, development finance institutions, and corporates with science-based targets requiring high-permanence offsets. The World Bank manages buyer allocation, which means this is not open-market supply but targeted offtake.</p>
+
+<p>Related: <a href="/en/blog/redd-plus-cross-borders">REDD+ Across Borders: How Africa's Carbon Projects Are Evolving</a> | <a href="/en/blog/ascent-ppf-east-africa">Ascent PPF: $25M World Bank Facility Opens for African Clean Energy</a></p>`,
+      },
+      fr: {
+        title: "L'Éthiopie émet ses premiers crédits REDD+ juridictionnels ISFL : 14,9 millions de tonnes en Oromia",
+        excerpt: "L'Éthiopie a finalisé la première émission de crédits paysagers intégrés dans le cadre de l'Initiative pour des Paysages Forestiers Durables (ISFL) de la Banque mondiale — 14,9 millions de tonnes de CO2 équivalent depuis la région d'Oromia. Un jalon historique pour les marchés carbone africains juridictionnels.",
+        content: `<p>L'Éthiopie a finalisé la première émission de crédits dans le cadre de l'<strong>Initiative pour des Paysages Forestiers Durables (ISFL)</strong> de la Banque mondiale — la première émission REDD+ juridictionnelle de ce type sur le continent africain. L'émission couvre <strong>14,9 millions de tonnes d'équivalent CO2</strong> depuis la région d'Oromia, avec environ <strong>12,4 millions de tonnes disponibles pour le marché</strong> après l'allocation du pool tampon.</p>
+
+<h2>En Quoi C'est un Jalon Historique</h2>
+<p>Les crédits REDD+ juridictionnels diffèrent des crédits REDD+ au niveau des projets d'une manière essentielle : au lieu de créditer des projets individuels de protection des forêts au sein d'une région, ils mesurent et créditent les réductions d'émissions à l'échelle d'une juridiction entière — en l'occurrence, l'État régional d'Oromia en Éthiopie, qui abrite environ 35 millions de personnes et le plus grand domaine forestier régional d'Afrique de l'Est.</p>
+
+<p>Cette approche « juridictionnelle » est considérée comme plus robuste car elle traite le problème des fuites (la déforestation se déplaçant vers des zones non créditées hors des limites des projets) et prend en compte le risque de permanence à grande échelle. Pour les acheteurs de carbone qui ont fait face à des critiques concernant la performance de projets REDD+ individuels, les crédits juridictionnels représentent une alternative de plus haute intégrité.</p>
+
+<h2>L'ISFL : L'Architecture Imbriquée de la Banque Mondiale</h2>
+<p>L'ISFL, géré par le BioCarbon Fund de la Banque mondiale, fonctionne en finançant directement les gouvernements pour mettre en œuvre des programmes REDD+ nationaux ou sous-nationaux. Le programme d'Oromia est en développement depuis 2014, couvrant la gestion durable des terres, l'agroforesterie et la conservation des forêts sur environ 19 millions d'hectares.</p>
+
+<p>L'émission de 14,9 millions de tCO2e est le résultat de réductions d'émissions et d'absorptions vérifiées par rapport à une ligne de base historique. Les 2,5 millions de tonnes mises de côté dans le compte tampon constituent une garantie de permanence — si le couvert forestier venait à être perdu dans les années futures en raison d'une sécheresse ou d'une instabilité politique, ces tonnes seraient annulées plutôt que d'exposer les acheteurs.</p>
+
+<h2>Ce que Cela Signifie pour les Marchés Carbone Africains</h2>
+<p>L'émission ISFL d'Oromia est significative au-delà de l'Éthiopie. Plusieurs gouvernements africains — notamment le Ghana, le Kenya et la RDC — développent des programmes REDD+ juridictionnels similaires dans le cadre de l'ISFL ou du Fonds de Partenariat pour le Carbone Forestier (FCPF). Une première émission réussie par l'Éthiopie démontre que le modèle fonctionne à grande échelle, renforçant la confiance des autres gouvernements et des acheteurs souverains envisageant le carbone forestier juridictionnel.</p>
+
+<p>Pour le pipeline carbone d'Afrique de l'Est et centrale, c'est également un signal que des approvisionnements de grande envergure et de haute intégrité deviennent disponibles — pas seulement de petits crédits de projets à l'échelle locale. Avec 12,4 millions de tonnes commercialisables, l'émission d'Oromia est l'un des plus grands lots de crédits carbone jamais émis sur le continent.</p>
+
+<h2>Le Paysage des Acheteurs</h2>
+<p>Les crédits ISFL ciblent généralement les acheteurs souverains et institutionnels — les gouvernements nationaux respectant leurs engagements de l'Accord de Paris, les institutions de financement du développement, et les entreprises dotées d'objectifs fondés sur la science nécessitant des compensations à haute permanence. La Banque mondiale gère l'allocation aux acheteurs, ce qui signifie qu'il ne s'agit pas d'une offre en marché libre mais d'un flux dirigé.</p>
+
+<p>À lire également : <a href="/en/blog/redd-plus-cross-borders">REDD+ Au-delà des Frontières : Comment les Projets Carbone Africains Évoluent</a> | <a href="/en/blog/ascent-ppf-east-africa">Ascent PPF : Un Mécanisme de 25 M$ de la Banque Mondiale pour l'Énergie Propre en Afrique</a></p>`,
+      },
+    },
+  },
 ];
 
 export function getPost(slug: string): Post | undefined {

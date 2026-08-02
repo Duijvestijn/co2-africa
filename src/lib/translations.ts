@@ -688,4 +688,28 @@ export const translations = {
       ],
     },
   },
+  newsletter: {
+    en: {
+      label: "Stay Informed",
+      title: "Africa Carbon Market Intelligence",
+      subtitle: "Weekly analysis of Africa's voluntary carbon markets, Article 6 developments, and nature-based investment opportunities.",
+      placeholder: "your@email.com",
+      namePlaceholder: "First name (optional)",
+      button: "Subscribe",
+      success: "You're subscribed. Welcome to the Africa Carbon Markets newsletter.",
+      error: "Something went wrong. Please try again.",
+      privacy: "No spam. Unsubscribe anytime.",
+    },
+    fr: {
+      label: "Restez Informé",
+      title: "Intelligence des Marchés Carbone Africains",
+      subtitle: "Analyses hebdomadaires des marchés carbone volontaires africains, développements Article 6 et opportunités d'investissement dans la nature.",
+      placeholder: "votre@email.com",
+      namePlaceholder: "Prénom (optionnel)",
+      button: "S'abonner",
+      success: "Vous êtes abonné(e). Bienvenue dans la newsletter des Marchés Carbone Africains.",
+      error: "Une erreur s'est produite. Veuillez réessayer.",
+      privacy: "Pas de spam. Désinscription à tout moment.",
+    },
+  },
 };

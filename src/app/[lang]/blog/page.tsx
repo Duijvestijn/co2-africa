@@ -11,8 +11,8 @@ const BASE = "https://co2.africa";
 const UI = {
   en: {
     label: "Continental Intelligence",
-    title: "Africa Carbon Blog",
-    subtitle: "In-depth insights on African carbon markets — nature-based solutions, Article 6, and country analysis.",
+    title: "Africa Carbon Insights",
+    subtitle: "In-depth analysis on African carbon markets — nature-based solutions, Article 6 frameworks, and country-level intelligence.",
     backHome: "Back to home",
     newsletter: "Stay informed",
     newsletterTitle: "Get new articles in your inbox",
@@ -21,7 +21,7 @@ const UI = {
   },
   fr: {
     label: "Intelligence Continentale",
-    title: "Blog Carbone Afrique",
+    title: "Analyses Carbone Afrique",
     subtitle: "Analyses approfondies sur les marchés carbone africains — solutions basées sur la nature, Article 6, et analyse par pays.",
     backHome: "Retour à l'accueil",
     newsletter: "Restez informé",
@@ -39,7 +39,7 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
   const { lang } = await params;
   const l = SUPPORTED.includes(lang) ? (lang as "en" | "fr") : "en";
   return {
-    title: l === "fr" ? "Blog Carbone Afrique — CO2.Africa" : "Africa Carbon Blog — CO2.Africa",
+    title: l === "fr" ? "Analyses Carbone Afrique — CO2.Africa" : "Africa Carbon Insights — CO2.Africa",
     description: UI[l].subtitle,
     alternates: {
       canonical: `${BASE}/${l}/blog`,
@@ -72,7 +72,7 @@ export default async function BlogPage({ params }: { params: Promise<{ lang: str
           </div>
 
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {posts.map(post => {
+            {[...posts].sort((a, b) => b.date.localeCompare(a.date)).map(post => {
               const t = post.lang[lang] ?? post.lang.en;
               return (
                 <BlogCard

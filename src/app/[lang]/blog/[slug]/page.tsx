@@ -77,6 +77,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ lang:
     headline: t.title,
     description: t.excerpt,
     datePublished: post.date,
+    author: { "@type": "Organization", name: "CO2.Africa Research" },
     publisher: { "@type": "Organization", name: "CO2.Africa", url: BASE },
     url: `${BASE}/${l}/blog/${slug}`,
   };

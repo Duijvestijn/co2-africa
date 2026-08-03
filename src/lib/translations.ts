@@ -74,7 +74,7 @@ export const translations = {
       step4Desc: "Proceeds flow back into restoration, local communities, and long-term regional development.",
       whyTitle: "Why It Matters",
       whyDesc:
-        "Carbon credits are the only mechanism that can make large-scale African nature restoration economically self-sustaining. They transform land from a passive resource into an active, income-generating environmental asset.",
+        "Carbon finance can provide an important long-term revenue mechanism for eligible nature-restoration projects across Africa. It transforms land from a passive resource into an active, income-generating environmental asset.",
     },
     fr: {
       label: "Finance Carbone",
@@ -92,7 +92,7 @@ export const translations = {
       step4Desc: "Les recettes reviennent à la restauration, aux communautés locales et au développement régional.",
       whyTitle: "Pourquoi c'est important",
       whyDesc:
-        "Les crédits carbone sont le seul mécanisme capable de rendre la restauration de la nature africaine économiquement autonome à grande échelle. Ils transforment la terre d'une ressource passive en un actif environnemental actif et générateur de revenus.",
+        "La finance carbone peut constituer un mécanisme de revenus à long terme important pour les projets de restauration de la nature éligibles en Afrique. Elle transforme la terre d'une ressource passive en un actif environnemental actif et générateur de revenus.",
     },
   },
 

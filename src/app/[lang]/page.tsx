@@ -10,6 +10,7 @@ import OpportunitySection from "@/components/OpportunitySection";
 import StandardsSection from "@/components/StandardsSection";
 import ProjectsSection from "@/components/ProjectsSection";
 import FlagshipProjectSection from "@/components/FlagshipProjectSection";
+import AfricaMapSection from "@/components/AfricaMapSection";
 import InsightsSection from "@/components/InsightsSection";
 import NewsletterSection from "@/components/NewsletterSection";
 import FAQSection from "@/components/FAQSection";
@@ -52,6 +53,7 @@ export default async function LangPage({ params }: { params: Promise<{ lang: str
         <StandardsSection />
         <ProjectsSection />
         <FlagshipProjectSection />
+        <AfricaMapSection />
         <InsightsSection />
         <NewsletterSection />
         <FAQSection />

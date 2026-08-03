@@ -19,10 +19,6 @@ export default function HowItWorksSection() {
     <section id="how-it-works" className="bg-white py-24 md:py-32">
       <div ref={ref} className="max-w-6xl mx-auto px-6">
         <div className="max-w-2xl mb-16">
-          <motion.span variants={FU(0)} initial="hidden" animate={inView ? "visible" : "hidden"}
-            className="text-xs tracking-[0.3em] uppercase text-af-green font-bold mb-4 block">
-            {t.label}
-          </motion.span>
           <motion.h2 variants={FU(0.08)} initial="hidden" animate={inView ? "visible" : "hidden"}
             className="font-serif text-5xl md:text-6xl font-bold text-af-ink leading-tight mb-4">
             {t.title}

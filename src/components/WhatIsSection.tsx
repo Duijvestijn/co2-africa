@@ -28,9 +28,6 @@ export default function WhatIsSection() {
         <div className="grid lg:grid-cols-2 gap-16 items-start">
           {/* Left: header + intro */}
           <div>
-            <motion.div variants={FU(0)} initial="hidden" animate={inView ? "visible" : "hidden"}>
-              <span className="text-xs tracking-[0.3em] uppercase text-af-green font-bold mb-4 block">{t.label}</span>
-            </motion.div>
             <motion.h2 variants={FU(0.08)} initial="hidden" animate={inView ? "visible" : "hidden"}
               className="font-serif text-5xl md:text-6xl font-bold text-af-ink leading-tight mb-6">
               {t.title}

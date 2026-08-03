@@ -28,10 +28,6 @@ export default function InsightsSection() {
       <div ref={ref} className="max-w-6xl mx-auto px-6">
         <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-6 mb-14">
           <div>
-            <motion.span variants={FU(0)} initial="hidden" animate={inView ? "visible" : "hidden"}
-              className="text-xs tracking-[0.3em] uppercase text-af-green font-bold mb-4 block">
-              {t.label}
-            </motion.span>
             <motion.h2 variants={FU(0.08)} initial="hidden" animate={inView ? "visible" : "hidden"}
               className="font-serif text-5xl md:text-6xl font-bold text-af-ink leading-tight">
               {t.title}

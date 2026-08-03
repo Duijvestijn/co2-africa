@@ -22,10 +22,6 @@ export default function FlagshipProjectSection() {
         <div className="grid lg:grid-cols-2 gap-0 min-h-[600px]">
           {/* Left: content */}
           <div className="py-16 pr-0 lg:pr-12 flex flex-col justify-center">
-            <motion.span variants={FU(0)} initial="hidden" animate={inView ? "visible" : "hidden"}
-              className="text-xs tracking-[0.3em] uppercase text-af-sienna font-bold mb-4 block">
-              {t.label}
-            </motion.span>
             <motion.h2 variants={FU(0.08)} initial="hidden" animate={inView ? "visible" : "hidden"}
               className="font-serif text-4xl md:text-5xl font-bold text-white leading-tight mb-4">
               {t.title}

@@ -33,10 +33,7 @@ export default function WhyAfricaSection() {
           style={{ backgroundImage: `url(${IMAGES.congoForest})` }} />
         <div className="absolute inset-0 bg-af-dark/70" />
         <div className="relative z-10 h-full flex flex-col justify-end pb-10">
-          <div className="max-w-6xl mx-auto px-6 w-full">
-            <motion.div variants={FU(0)} initial="hidden" animate={inView ? "visible" : "hidden"} ref={ref}>
-              <span className="text-xs tracking-[0.3em] uppercase text-af-sienna font-bold mb-4 block">{t.label}</span>
-            </motion.div>
+          <div ref={ref} className="max-w-6xl mx-auto px-6 w-full">
             <motion.h2 variants={FU(0.08)} initial="hidden" animate={inView ? "visible" : "hidden"}
               className="font-serif text-5xl md:text-6xl font-bold text-white leading-tight max-w-3xl">
               {t.title}
